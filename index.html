@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitación a la Revelación de Sexo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>¡Estás invitado a la Revelación de Sexo de Nuestro Bebé!</h1>
+        <p>Queremos compartir con ustedes este momento especial y ¡necesitamos saber si asistirás y qué crees que será el bebé!</p>
+        
+        <div class="event-info">
+            <h2>Detalles del Evento</h2>
+            <p><strong>Dirección:</strong> Calle Halcon peregrino 4897 Lampa</p>
+            <p><strong>Fecha:</strong> 18 de Enero de 2025</p>
+            <p><strong>Hora:</strong> 18:00</p>
+        </div>
+        
+        <div class="form-container">
+            <form id="invitationForm">
+                <label for="name">Tu Nombre:</label>
+                <input type="text" id="name" placeholder="Ingresa tu nombre" required>
+
+                <label for="attendance">¿Asistirás?</label>
+                <select id="attendance" required>
+                    <option value="yes">Sí</option>
+                    <option value="no">No</option>
+                </select>
+
+                <label for="genderGuess">¿Qué crees que será?</label>
+                <select id="genderGuess" required>
+                    <option value="boy">Niño</option>
+                    <option value="girl">Niña</option>
+                </select>
+
+                <button type="submit">Confirmar Asistencia</button>
+            </form>
+        </div>
+
+        <div id="result" class="result"></div>
+
+        <!-- Botón para compartir en WhatsApp -->
+        <div class="share-container">
+            <p>Comparte esta página con tus amigos:</p>
+            <a href="https://wa.me/?text=¡Mira+esta+página+web+de+revelación+de+sexo+de+mi+bebé!+https://tusitio.com"
+               target="_blank" class="whatsapp-share-btn">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" width="40">
+                Compartir en WhatsApp
+            </a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
